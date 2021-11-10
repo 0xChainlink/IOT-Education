@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<!-- Semantic element focus- Instead of using the generalized <div> element best practice is to use proper segmentation in webpage. 
+e.g. <aside>, <article>, header, section etc.. for browser optimization and cleaner code.-->
+
+    <body>
+    
+    <!-- <div class="Header">
+        <p>Hello There <span>How Are You?</span> </p>  // Span has no inherent meaning, 
+        but it allows CSS & JS functionality. best to stick with strong or anchor elements.
+    </div>  -->
+
+    <header>
+        <h1>Logo</h1>
+        <nav>
+            <ul>
+                <li><a href="#"> Home</a></li>
+                <li><a href="#"> About</a></li>
+                <li><a href="#"> Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <article> <!-- Articles are self-contained whereas sections need additional info. sections can be within or out of articles np.-->
+            <h2>Article Heading</h2>
+            <section>
+                <p>Lorem ipsum dolor, sit <br> amet consectetur <aside> adipisicing </aside> elit. Numquam voluptatibus quisquam blanditiis mollitia aliquam placeat ducimus, 
+                    vel aspernatur dolore magnam. Molestiae esse explicabo voluptatum recusandae minus quos vero, suscipit atque?
+                </p>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </section>
+        </article>
+    </main>
+    <aside>
+        Here be banners & ads.
+    </aside>
+    <footer>
+        <p>Copyright &copy; 2021 Mark Mckevitt</p>
+    </footer>
+</body>
+</html>
